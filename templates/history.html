@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HISTORICAL PREDICTIONS</h1>
+    
+
+    <table border="1">
+        <tr>
+            <th>Brand Name</th>
+            <th>Owner Name</th>
+            <th>Kms Driven</th>
+            <th>Age</th>
+            <th>Power</th>
+            <th>Predictions</th>
+        </tr>
+        {% for prediction in historical_data %}
+        <tr>
+            <td>{{ prediction[1] }}</td>
+            <td>{{ prediction[2] }}</td>
+            <td>{{ prediction[3] }}</td>
+            <td>{{ prediction[4] }}</td>
+            <td>{{ prediction[5] }}</td>
+            <td>{{ prediction[6] }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+</body>
+</html>
+
+

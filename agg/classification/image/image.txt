@@ -1,0 +1,32 @@
+##image processinf
+1.it is involve perform operation on image to enhance then. contract or prepare then for other apllication like cv(comp vision).
+2. two type -
+1analog ip\
+2. digital ip
+
+application --
+1. medical 
+2. remote 
+3. industrial app
+4.securitly;
+robotics
+
+
+##image representation
+pixels - a smaallest unti each pixel representation an intensity value.
+2 type--
+gray scales
+rgb image
+bit depth -- it define how many diff intensity levels a pixels can represent.
+1bit - 2level(black and white)
+2 - 8bit - 256level of grayscale image(0 = black , 255 = white) 128 = mid gray
+3 - 24 bit - coour image = r,g,b 8bit for each colour.
+opencv --
+c++ with python image
+complex  and easy task.
+
+#pillows
+basic tasks
+
+pip install opencv-python pillow
+ 
